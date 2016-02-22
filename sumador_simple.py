@@ -33,7 +33,7 @@ try:
 			first_time = False
 		else:
 			last_addend = addend
-			addition = int(first_addend) + int(last_addend)
+			addition    = int(first_addend) + int(last_addend)
 			print str(addition)
 			recvSocket.send("HTTP/1.1 200 OK\r\n\r\n" +
 							"<html><body bgcolor='#B17FC9'><center><h1>" + 
